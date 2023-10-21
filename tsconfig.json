@@ -19,7 +19,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+  
     "incremental": true,
+    
     "paths": {
       "apexcharts": [
         "./node_modules/apexcharts-clevision"
@@ -42,4 +44,5 @@
   "exclude": [
     "node_modules"
   ]
+  
 }

@@ -1,6 +1,9 @@
 // ** MUI Imports
 import { useTheme } from '@mui/material/styles'
-import MuiTimelineDot from '@mui/lab/TimelineDot'
+
+// @ts-ignore
+import TimelineDot from '@mui/lab/TimelineDot';
+
 
 // ** Hooks Imports
 import useBgColor, { UseBgColorType } from 'src/@core/hooks/useBgColor'
