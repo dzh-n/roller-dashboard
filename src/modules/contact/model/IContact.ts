@@ -1,10 +1,10 @@
 export interface IContact {
     id: number
-    description: string
-    address: string
-    phone: string
-    email: string
-    title: string
-    workDays: string
+    description: string | null
+    address: string | null
+    phone: string | null
+    email: string | null
+    title: string | null
+    workDays: string | null
   }
   

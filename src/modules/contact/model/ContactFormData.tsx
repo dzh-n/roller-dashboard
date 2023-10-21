@@ -2,12 +2,12 @@ import * as yup from 'yup'
 import { getMaxLengthErrorMessage } from '@shared/lib/getMaxLengthErrorMessage'
 
 export interface ContactFormData {
-  address: string
-  description: string
-  phone: string
-  email: string
-  title: string
-  workDays: string
+  address: string | null  | undefined
+  description: string | null | undefined
+  phone: string | null | undefined
+  email: string | null | undefined
+  title: string | null | undefined
+  workDays: string | null | undefined
 }
 
 const yupObject = {
