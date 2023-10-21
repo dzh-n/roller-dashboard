@@ -14,35 +14,41 @@ function ContactForm({control, errors}: Props) {
       control={control}
       label="Адрес"
       errorMessage={errors.address?.message}
-      required
     />
     <TextFieldCustom
       name="description"
       control={control}
       label="Страна, город"
       errorMessage={errors.description?.message}
-      required
+    
     />
     <TextFieldCustom
       name="phone"
       control={control}
       label="Телефон"
       errorMessage={errors.phone?.message}
-      required
+    
+    />
+    <TextFieldCustom
+      name="email"
+      control={control}
+      label="Email"
+      errorMessage={errors.phone?.message}
+    
     />
     <TextFieldCustom
       name="title"
       control={control}
       label="Заголовок"
       errorMessage={errors.title?.message}
-      required
+    
     />
     <TextFieldCustom
       name="workDays"
       control={control}
       label="Рабочие дни"
       errorMessage={errors.workDays?.message}
-      required
+    
     />
   </>)
 }

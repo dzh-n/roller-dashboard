@@ -106,7 +106,7 @@ const schema = yup.object().shape({
   contact: yup.string()
     .transform(removeSpaces)// @ts-ignore
     .checkContact()
-    .required('Введите ваш номер телефона или Email'),
+    .required('Введите ваш номер телефона'),
   password: yup.string().min(6, 'Мин. кол-во символов 6').required('Введите ваш пароль')
 })
 

@@ -1,4 +1,4 @@
-import { GridActionsCellItem, GridColDef } from '@mui/x-data-grid'
+ import { GridActionsCellItem, GridColDef } from '@mui/x-data-grid'
 import Avatar from '@mui/material/Avatar'
 import EditIcon from '@mui/icons-material/Edit'
 import DeleteIcon from '@mui/icons-material/Delete'
@@ -21,6 +21,7 @@ export function ContactColumns({handleUpdateOpen, trigger, mutate}: Props): Grid
     {field: 'address', headerName: 'Адрес', flex: 1},
     {field: 'description', headerName: 'Страна, город', flex: 1},
     {field: 'phone', headerName: 'Телефон', flex: 1},
+    {field: 'email', headerName: 'Email', flex: 1},
     {field: 'title', headerName: 'Заголовок', flex: 1},
     {field: 'workDays', headerName: 'Рабочие дни', flex: 1},
     {

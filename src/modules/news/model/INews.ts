@@ -4,4 +4,9 @@ export interface INews {
   text: string
   title: string
   date: string
+  ItemNewsDate: {
+    image: string
+    text: string
+    title: string
+  }[]
 }

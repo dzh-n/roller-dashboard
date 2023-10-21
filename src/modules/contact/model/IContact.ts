@@ -3,6 +3,7 @@ export interface IContact {
     description: string
     address: string
     phone: string
+    email: string
     title: string
     workDays: string
   }

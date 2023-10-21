@@ -31,6 +31,7 @@ function UpdateContact({mutate}: Props) {
       address: contact?.address,
       description: contact?.description,
       phone: contact?.phone,
+      email: contact?.email,
       title: contact?.title,
       workDays: contact?.workDays,
     },
